@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.oral_calculation_game.HomeFragment"
+        android:label="@string/home_nav_message"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.oral_calculation_game.GameFragment"
+        android:label="@string/game_nav_message"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_winFragment"
+            app:destination="@id/winFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_loseFragment"
+            app:destination="@id/loseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/winFragment"
+        android:name="com.example.oral_calculation_game.WinFragment"
+        android:label="@string/win_nav_message"
+        tools:layout="@layout/fragment_win" >
+        <action
+            android:id="@+id/action_winFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loseFragment"
+        android:name="com.example.oral_calculation_game.LoseFragment"
+        android:label="@string/lose_nav_message"
+        tools:layout="@layout/fragment_lose" >
+        <action
+            android:id="@+id/action_loseFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

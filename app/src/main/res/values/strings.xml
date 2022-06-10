@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Oral-Calculation-Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="quit_dailog_title">Are you sure to quit?</string>
+    <string name="quit_dailog_yes">Yes</string>
+    <string name="quit_dailog_no">No</string>
+    <string name="home_nav_message">Welcome</string>
+    <string name="game_nav_message">Gaming</string>
+    <string name="win_nav_message">Win</string>
+    <string name="lose_nav_message">Lose</string>
+</resources>

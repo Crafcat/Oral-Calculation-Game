@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_title">32sp</dimen>
+    <dimen name="home_score">14sp</dimen>
+    <dimen name="game_score">14sp</dimen>
+    <dimen name="game_question">44sp</dimen>
+    <dimen name="game_input">30sp</dimen>
+    <dimen name="game_btn">20sp</dimen>
+    <dimen name="win_lose_hint">34sp</dimen>
+</resources>

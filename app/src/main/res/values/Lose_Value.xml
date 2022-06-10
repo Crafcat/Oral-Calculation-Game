@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lose_pic" translatable="false">picture</string>
+    <string name="lose_back">Back</string>
+    <string name="lose_message">Challenge Failure!</string>
+    <string name="lose_score">Your Score:%d</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_name">Oral-Calculation-Game</string>
+    <string name="home_btn">Start</string>
+    <string name="home_pic" translatable="false">picture</string>
+    <string name="high_score">High Score:%d</string>
+</resources>

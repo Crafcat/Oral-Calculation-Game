@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="KEY_HIGH_SCORE" translatable="false">key_high_score</string>
+    <string name="KEY_LEFT_NUMBER" translatable="false">key_left_number</string>
+    <string name="KEY_RIGHT_NUMBER" translatable="false">key_right_number</string>
+    <string name="KEY_OPERATOR" translatable="false">key_operator</string>
+    <string name="KEY_ANSWER" translatable="false">key_answer</string>
+    <string name="KEY_CURRENT_SCORE" translatable="false">key_current_score</string>
+    <string name="SAVE_SHP_DATA" translatable="false">save_shp_data</string>
+</resources>

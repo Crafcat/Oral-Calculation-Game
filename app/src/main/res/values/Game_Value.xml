@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn1" translatable="false">1</string>
+    <string name="btn2" translatable="false">2</string>
+    <string name="btn3" translatable="false">3</string>
+    <string name="btn4" translatable="false">4</string>
+    <string name="btn5" translatable="false">5</string>
+    <string name="btn6" translatable="false">6</string>
+    <string name="btn7" translatable="false">7</string>
+    <string name="btn8" translatable="false">8</string>
+    <string name="btn9" translatable="false">9</string>
+    <string name="btnClean">CLN</string>
+    <string name="btn0" translatable="false">0</string>
+    <string name="btnSub">SUB</string>
+    <string name="equal_symbol" translatable="false">=</string>
+    <string name="question_symbol" translatable="false">？</string>
+    <string name="current_score">Score:%d</string>
+    <string name="input">Your Answer:</string>
+    <string name="correct_message">Bingo!and Next</string>
+</resources>
